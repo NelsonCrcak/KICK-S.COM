@@ -1,0 +1,91 @@
+* { /*Elimina todos los px agregados por defecto */
+    padding: 0px;
+    margin: 0px;  
+}
+ 
+body { /*Con esta etiqueta podemos modificar el cuerpo de la pagina web */
+    background-color: lightblue; 
+}
+
+.btn-secondary { /*Este cambia el color del Menu mientras no se usa */
+    background-color: rgb(255, 6, 6);
+
+}
+
+.btn-secondary:hover { /*Este cambia el color del Menu mientras pasas el raton por encima */
+    background-color: #0080ff;
+
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus { /*Este cambia el color del Menu mientras pasas el raton por encima de las opciones */
+    background-color: blue;
+
+}
+
+.dropdown-menu { /*Cambia el color del menu interior */
+    background-color: blueviolet;
+
+}
+
+.dropdown-item:hover { /*Cambia el color del menu interior al pasar el mouse */
+    background-color: rgb(73, 230, 52);
+
+}
+
+
+
+.columnasFooter{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;   
+    color: black;
+}
+
+li a:hover{
+    text-decoration: none;   
+    color: rgb(255, 0, 0);
+}
+
+img, .logotipo {
+    text-justify: left;
+    display: block;
+    margin: left;
+    width: 200px;
+
+}
+
+.empresa {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 50%;
+    padding: 0;
+    clip-path: circle(50%);
+
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer {
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/*
+h1 {
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+*/
+
